@@ -11,7 +11,7 @@ version = "0.1.0"
 
 [dependencies]
 thiserror = "1.*"
-arith_traits = { git = "https://github.com/u007d/arith_traits" }
+arith_traits = { path = "../arith_traits" }
 
 [profile.dev]
 codegen-units = 1
